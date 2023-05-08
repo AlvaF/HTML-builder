@@ -36,6 +36,6 @@ fs.writeFile(filePath, '', (err) => {
         console.error('Ошибка при создании файла:', err);
     } else {
         console.log('Файл успешно создан.');
-        console.log('Введите текст (или "exit" для завершения):');
+        console.log('Введите текст или "exit" для завершения:');
     }
 });
